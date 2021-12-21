@@ -72,4 +72,4 @@ track whats happening. Since other requests is fast best way to test is using op
 
 
 
-NOTE:  I used JDK 15 and Apache NewBeans IDE 12.4
+NOTE:  I used JDK 15 and Apache NetBeans IDE 12.4
