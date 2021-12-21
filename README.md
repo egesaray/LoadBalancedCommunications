@@ -60,15 +60,14 @@ is a precaution or a limitation for every possible error.
 As i mentioned in the  second part(High Level Approach) i tried to do the client's 
 options to work on different directories or computers.
 
-	1) Load Balancer's port number is 9876 if this port is used in your computer, you 
+1) Load Balancer's port number is 9876 if this port is used in your computer, you 
 need to change it manually. Other ports selected by the system.
-	2) There is a file "downloadedFile.txt" in project's directory, you can delete that
+2) There is a file "downloadedFile.txt" in project's directory, you can delete that
 to test that the option 2 of client is working.
-
-	3) First you need to run loadBalancer.java
-	4) Then you need to run Server.java it has 4 server threads an when it runs they
+3) First you need to run loadBalancer.java
+4) Then you need to run Server.java it has 4 server threads an when it runs they
 are joining the load balancer so the order is important.
-	5) Then you can run as many Client.java as you want. And through feedbacks you can
+5) Then you can run as many Client.java as you want. And through feedbacks you can
 track whats happening. Since other requests is fast best way to test is using option 3(computation)
 
 
