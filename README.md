@@ -7,7 +7,7 @@ Project for Computer Networks course.
 
 (1)Load Balancing Strategy
 
-	I followed a strategy similar to the Least Connection strategy.
+I followed a strategy similar to the Least Connection strategy.
 When a client sends a request my load balancer is searching for the server which has least
 active connections. My servers supports at most 100 request. I used a double array to track
 which server has what amount of work. To test purposes i created 4 server threads. When a
@@ -21,7 +21,7 @@ situation and it is not taking any other request until a place opens.
 
 (2)High Level Approach
 
-	I used UDP protocol to imlement this project.
+I used UDP protocol to imlement this project.
 Servers answers to three different requests. First one is directory listing, to make the 
 project easily runnable in every computer it lists the project's files. Second one is file
 transfer. It sends the "deneme.txt" file which is in the project's directory to the client.
@@ -33,7 +33,7 @@ client closes every server.
 
 (3)Challanges
 
-	Since this project is not limits us with a specific load balancing strategy, i think
+Since this project is not limits us with a specific load balancing strategy, i think
 finding an idea about how to do that load balancing algorithm is easy. I mean i could have
 just assign servers randomly.Instead of that i tried to do something optimal enough, but not 
 above my capabilities. First i tried to do something preemtive like when a server was doing
@@ -47,7 +47,7 @@ worst idea.
 
 (4)Testing
 
-	Since this is not a very big project i did my tests manually, after i write some 
+Since this is not a very big project i did my tests manually, after i write some 
 code i did unit testing. Since this project covers a different threads and clients the 
 important part was how these units integrates with the other ones for that reason i tried to
 do integration testings very carefully. And i met most of the errors in this part. I did 
@@ -57,7 +57,7 @@ is a precaution or a limitation for every possible error.
 
 (5)How to run project
 
-	As i mentioned in the  second part(High Level Approach) i tried to do the client's 
+As i mentioned in the  second part(High Level Approach) i tried to do the client's 
 options to work on different directories or computers.
 
 	1) Load Balancer's port number is 9876 if this port is used in your computer, you 
@@ -73,5 +73,4 @@ track whats happening. Since other requests is fast best way to test is using op
 
 
 
-NOTE: 
-	I used JDK 15 and Apache NewBeans IDE 12.4
+NOTE:  I used JDK 15 and Apache NewBeans IDE 12.4
