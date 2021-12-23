@@ -2,9 +2,6 @@
 Project for Computer Networks course.
 
 
-
-
-
 (1)Load Balancing Strategy
 
 I followed a strategy similar to the Least Connection strategy.
@@ -69,7 +66,6 @@ to test that the option 2 of client is working.
 are joining the load balancer so the order is important.
 5) Then you can run as many Client.java as you want. And through feedbacks you can
 track whats happening. Since other requests is fast best way to test is using option 3(computation)
-
 
 
 NOTE:  I used JDK 15 and Apache NetBeans IDE 12.4
